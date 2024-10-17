@@ -4,6 +4,7 @@ ARG VERSION
 
 COPY target/guestbook-0.0.1-SNAPSHOT.jar /app/guestbook.jar
 
+
 LABEL maintainer="Kim Yu Taek<sunnykid7@gmail.com>" \
       title="Guestbook App" \
       version="$VERSION" \
